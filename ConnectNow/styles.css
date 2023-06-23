@@ -1,0 +1,121 @@
+#titlebar {
+    background-color: #236047;
+    border: 1px solid black;
+    width: 430pt;
+    height: 70pt;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #E3E4C8;
+    font-size: 27pt;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+.circle-chevron-left {
+    width: 34.88pt;
+    height: 34.88pt;
+}
+
+#title {
+    font-size: 27pt;
+    color: #E3E4C8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    padding: 20pt;
+    font-family: Arial;
+}
+.row {
+    display: flex;
+    align-items:center;
+    margin-bottom: 20pt;
+}
+
+.row-text {
+    font-size: 20pt;
+    color: #000000;
+    margin-left: 10pt;
+}
+
+.circle-user {
+    width: 34.88pt;
+    height: 34.88pt;
+    border-radius: 50%;
+}
+
+.caret-right {
+    width: 9pt;
+    height: 18pt;
+    margin-left: auto;
+}
+
+.caret-down {
+    width: 18pt;
+    height: 9pt;
+    margin-left: auto;
+    transform: rotate(90deg);
+}
+
+.bell {
+    width: 27.72pt;
+    height: 27.31pt;
+}
+
+.bell-slash {
+    width: 22.51pt;
+    height: 29.25pt;
+}
+
+.toggle-on {
+    width: 35pt;
+    height: 35pt;
+}
+
+.toggle-off {
+    width: 35pt;
+    height: 35pt;
+}
+
+.arrow-right-from-bracket {
+    width: 27pt;
+    height: 27pt;
+}
+
+.delete-left {
+    width: 25.14pt;
+    height: 18.29pt;
+}
+
+.log-out {
+    margin-left: 25%; 
+}
+
+.delete-account {
+    margin-left: 25%; 
+}
+
+
+/*All used icons/*
+/* 
+profile: cicle-user.svg 
+return: circle-chevron-left.svg
+log out: arrow-right-from-bracket.svg
+edit: arrow-up-right-from-square.svg or pen-to-sqaure.svg
+download: cloud-arrow-down.svg
+download file: file-arrow-down.svg
+notification on: bell.svg
+notification off: bell-slash.svg (add fas for solid)
+settings arrow right: caret-right.svg
+settings arrow down: caret-down.svg
+add: cicle-plus.svg (add far for regular)
+the opposite of favorite: circle-xmark.svg
+delete: delete-left.svg (add far for regular)
+settings: gear.svg
+locked: lock.svg
+unlocked: lock-open.svg
+explore: people-group.svg
+switched on: toggle-on.svg
+switched off: toggle-off.svg
+*/
