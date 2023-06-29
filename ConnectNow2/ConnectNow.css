@@ -1,0 +1,128 @@
+
+/* The start page  */
+@media (min-width: 480px) {
+    body {
+      background-size: contain;
+    }
+  }
+    
+body {
+    background-color: #f2f2f2;
+    font-family: Arial, sans-serif;
+}
+
+/* CSS for background picture */
+.forside {
+    background-image: url(Fotos/Forside.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+/* CSS for the logo */
+.logo {
+    width: 10pc;
+    height:16pc;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 750px;
+}
+
+/* CSS for the Sign Up and Login */
+.sign-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 25pc;
+    color: #000000;
+}
+
+/* CSS for the Sign Up button */
+.buttons-container {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 10px;
+    background-color: #236047;
+    color: #efe6e6;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+/* CSS for the Login text */
+.login {
+    display: flex;
+    justify-content: center;
+    color: #000000;
+    font-weight: 500;
+    margin-left: 200px;
+}
+
+.login2 {
+    font-weight: 900;
+    color: #243FF1;
+}
+
+/* CSS for the Sign Up & Login Form / Page */
+.signup-container {
+    display:inline-block;
+    justify-content: center;
+    margin-left: 340px
+}
+
+.signup1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+}
+
+.login1 {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    margin-left: 18%;
+}
+
+.title {
+    margin: 0%;
+    padding: 10px;
+    font-weight: 500;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 18pc;
+    padding: 11px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border: 1px solid #F7F7F5;
+    border-radius: 20px;
+    color: #AEAEAD;
+}
+
+button[type="submit"] {
+    width: 10pc;
+    padding: 10px;
+    background-color: #236047;
+    color: #efe6e6;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    margin-top: 2pc;
+    margin-left: 20%;
+}
+
+.forgot-p {
+    font-style: italic;
+    font-size: small;
+    margin: 0%;
+    padding: 0%;
+    margin-left: 30%;
+}
